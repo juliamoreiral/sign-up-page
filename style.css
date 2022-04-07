@@ -6,6 +6,7 @@ body {
     margin: 0px;
 }
 div#left {
+    display: inline-block;
     height: 675.96px;
     width: 574.36px;
     left: 129px;
@@ -22,3 +23,14 @@ div#left > p {
     text-align: center;
     letter-spacing: -0.02em;
 }
+
+div#elipse {
+    position: absolute;
+    border-radius: 50%;
+    width: 418.42px;
+    height: 418.42px;
+    left: 78.32px;
+    top: 162.91px;
+    background: linear-gradient(324.93deg, #0F70DA 0.74%, #007AFF 100%);
+}
+
