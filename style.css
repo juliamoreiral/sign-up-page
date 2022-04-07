@@ -3,7 +3,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
 body {
+    min-height: 100%;
+    width: 100%;
     margin: 0px;
+    background-color: white;
 }
 div#left {
     display: inline-block;
@@ -34,3 +37,11 @@ div#elipse {
     background: linear-gradient(324.93deg, #0F70DA 0.74%, #007AFF 100%);
 }
 
+div#right {
+    display: inline-block;
+    margin: 44.81px 137.63px 22.62px 114.31px;
+    width: 527.79px;
+    height: 608.23px;
+    top: 44.81;
+    background-color: red;
+}
