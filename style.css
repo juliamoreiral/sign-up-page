@@ -2,46 +2,53 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
 
-body {
-    min-height: 100%;
-    width: 100%;
-    margin: 0px;
-    background-color: white;
+html, body {
+    margin: 0%;
+    height: 100%;
 }
-div#left {
-    display: inline-block;
-    height: 675.96px;
-    width: 574.36px;
-    left: 129px;
-    top: 174px;
+
+.container {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+}
+.left {
+    display: flex;
+    width: 42.43%;
+    height: 100%;
     background-color: #0F70DA;
 }
 
-div#left > p {
-    margin: 0px;
-    padding: 45.16px 91.76px 570.8px 91.76px;
-    font: 600 19.76px 'Poppins', sans-serif;
-    color: white;
-    line-height: 150%;
-    text-align: center;
-    letter-spacing: -0.02em;
+.retangulo {
+    display: flex;
+    width: 57.57%;
+    height: 100%;
+    background-color: white;
 }
 
-div#elipse {
-    position: absolute;
-    border-radius: 50%;
-    width: 418.42px;
-    height: 418.42px;
-    left: 78.32px;
-    top: 162.91px;
-    background: linear-gradient(324.93deg, #0F70DA 0.74%, #007AFF 100%);
+.right {
+    display: flex;
+    width: 67.69%;
+    height: 90.02%;
+    margin-left: 14.66%;
+    margin-top: 5.63%;
+    background-color: bisque;
 }
 
-div#right {
-    display: inline-block;
-    margin: 44.81px 137.63px 22.62px 114.31px;
-    width: 527.79px;
-    height: 608.23px;
-    top: 44.81;
-    background-color: red;
+.logo {
+    display: flex;
+    width: 10.39%;
+    height: 90.02%;
+}
+
+.imglogo {
+    display: flex;
+    width: 4.79%;
+    height: 5.01%;
+}
+
+.logo > h1 {
+    color: black;
+    font: 600 12px 'Poppins', sans-serif;
+    padding: 5px;
 }
