@@ -7,48 +7,86 @@ html, body {
     height: 100%;
 }
 
-.container {
+#container {
     display: flex;
     flex-direction: row;
     height: 100%;
 }
-.left {
+#left {
     display: flex;
     width: 42.43%;
     height: 100%;
     background-color: #0F70DA;
 }
 
-.retangulo {
+#left > p {
+    display: flex;
+    width: 68.05%;
+    height: 8.83%;
+    margin-top: 6.68%;
+    margin-left: 15.97%;
+    color: white;
+    font: normal 600 1.2em 'Poppins', sans-serif;
+    text-align: center;
+}
+
+#retangulo {
     display: flex;
     width: 57.57%;
     height: 100%;
     background-color: white;
 }
 
-.right {
+#right {
     display: flex;
+    flex-direction: column;
     width: 67.69%;
     height: 90.02%;
-    margin-left: 14.66%;
     margin-top: 5.63%;
+    margin-left: 14.66%;
     background-color: bisque;
 }
 
-.logo {
+#logo {
     display: flex;
-    width: 10.39%;
-    height: 90.02%;
+    width: 15.35%;
+    height: 5.51%;
 }
 
-.imglogo {
+#logo > img {
     display: flex;
-    width: 4.79%;
-    height: 5.01%;
+    width: 36.42%;
+    height: 100%;
 }
 
-.logo > h1 {
+#logo > h1 {
+    display: flex;
+    width: 63.58%;
+    height: 100%;
+    margin: 0%;
+    padding-left: 5px;
+    align-items: center;
     color: black;
     font: 600 12px 'Poppins', sans-serif;
-    padding: 5px;
+}
+
+#texto {
+    display: flex;
+    flex-direction: column;
+    width: 29.37%;
+    height: 7.05%;
+}
+
+#texto > h1 {
+    display: flex;
+    width: 100%;
+    height: 58%;
+    margin: 0%;
+}
+
+#texto > p {
+    display: flex;
+    width: 94.19%;
+    height: 41.23%;
+    margin: 0%;
 }
