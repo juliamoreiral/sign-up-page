@@ -30,7 +30,7 @@ html, body {
     text-align: center;
 }
 
-#retangulo {
+#retangle {
     display: flex;
     width: 57.57%;
     height: 100%;
@@ -70,7 +70,7 @@ html, body {
     font: 600 12px 'Poppins', sans-serif;
 }
 
-#texto {
+#text {
     display: flex;
     flex-direction: column;
     width: 29.37%;
@@ -78,7 +78,7 @@ html, body {
     margin-top: 7.08%;
 }
 
-#texto > h1 {
+#text > h1 {
     display: flex;
     width: 100%;
     height: 58%;
@@ -87,7 +87,7 @@ html, body {
     font: 600 1.2em 'Poppins', sans-serif;
 }
 
-#texto > p {
+#text > p {
     display: flex;
     width: 95.19%;
     height: 41.23%;
@@ -97,11 +97,21 @@ html, body {
     font: 400 0.58em 'Poppins', sans-serif;
 }
 
-form {
+#form {
     display: flex;
+    flex-direction: column;
     width: 100%;
     height: 44.28%;
     margin: 0%;
     margin-top: 6.44%;
     background-color: lightgreen;
+}
+
+#checkbox-group {
+    display: flex;
+    flex-direction: row;
+}
+
+a {
+    text-decoration: none;
 }
