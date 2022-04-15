@@ -115,3 +115,10 @@ html, body {
 a {
     text-decoration: none;
 }
+
+#get-the-app {
+    display: flex;
+    width: 37.7%;
+    height: 4.64%;
+    background-color: blueviolet;
+}
